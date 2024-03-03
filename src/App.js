@@ -18,7 +18,14 @@ const App = () => {
   };
   const design = (
     <>
-      <div className="bg-gray-100 md:h-screen flex items-center justify-center ">
+      <div className="flex flex-col bg-gray-100 md:h-screen flex items-center justify-center ">
+        <div className="flex justify-center">
+          <img src="/logo.png" className="w-8/12" />
+        </div>
+        <div className="text-sm sm:text-lg font-semibold leading-5 my-3">
+          Unlocking Possibilities: Convert Over{" "}
+          <span className="text-red-500">30 Formats</span> Seamlessly!{" "}
+        </div>
         <div className="bg-white p-16 rounded-lg shadow-lg md:w-6/12">
           <h1 className="text-black text-5xl font-bold mb-8">
             Video Converter
